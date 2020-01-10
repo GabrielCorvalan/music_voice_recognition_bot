@@ -1,0 +1,30 @@
+{
+  "name": "music_v_r",
+  "version": "1.0.0",
+  "description": "Bot de musica mediante voz para discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielCorvalan/music_voice_recognition_bot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "music"
+  ],
+  "author": "Gabriel Corvalan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielCorvalan/music_voice_recognition_bot/issues"
+  },
+  "homepage": "https://github.com/GabrielCorvalan/music_voice_recognition_bot#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^2.1.1",
+    "discord.js": "https://github.com/discordjs/discord.js.git#123713305ad5a6aa1e5205a53713494009740aef",
+    "node-opus": "^0.3.3"
+  }
+}
